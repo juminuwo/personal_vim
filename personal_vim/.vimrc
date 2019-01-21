@@ -30,6 +30,7 @@ Plugin 'jpalardy/vim-slime'
 let g:slime_target = "tmux"
 Plugin 'davidhalter/jedi-vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,3 +47,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 set relativenumber
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }

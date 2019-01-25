@@ -6,4 +6,4 @@ cp $BASEDIR/.vimrc ~/.vimrc
 apt install neovim
 echo "set runtime^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
-source ~/.vimrc" > ~/testvim
+source ~/.vimrc" > ~/.config/nvim/init.vim

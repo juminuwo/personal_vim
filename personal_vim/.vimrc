@@ -50,3 +50,4 @@ set relativenumber
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
+set cc=80

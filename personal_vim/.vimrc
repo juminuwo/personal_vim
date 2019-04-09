@@ -51,3 +51,4 @@ let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
 set cc=80
+nmap <C-c><C-x> <Plug>SlimeLineSend

@@ -29,7 +29,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jpalardy/vim-slime'
 let g:slime_target = "tmux"
 Plugin 'davidhalter/jedi-vim'
-Plugin 'vim-airline/vim-airline'
 Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line

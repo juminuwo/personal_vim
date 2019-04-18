@@ -28,8 +28,13 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'jpalardy/vim-slime'
 let g:slime_target = "tmux"
-Plugin 'davidhalter/jedi-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'davidhalter/jedi-vim'
+set completeopt-=preview
+let g:jedi#smart_auto_mappings = 0
+let g:jedi#popup_on_dot = 0
+Plugin 'ervandew/supertab'
+let g:SuperTabDefaultCompletionType = 'context'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,4 +53,5 @@ filetype plugin indent on    " required
 set relativenumber
 set cc=80
 nmap <C-c><C-x> <Plug>SlimeLineSend
+syntax on
 colo ron
